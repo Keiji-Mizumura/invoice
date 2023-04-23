@@ -1,0 +1,67 @@
+:root{
+    --purple: hsl(252, 94%, 67%);
+    --light-purple: hsl(252, 100%, 73%);
+    --dark-purple: hsl(233, 31%, 17%);
+    --slightly-dark-purple: hsl(233, 30%, 21%);
+
+    --muted-purple-light: hsl(231, 73%, 93%);
+    --muted-purple: hsl(231, 20%, 61%);
+    --muted-purper-dark: hsl(231, 37%, 63%);
+
+    --black: hsl(228, 29%, 7%);
+
+    --red: hsl(0, 80%, 63%);
+    --muted-red: hsl(0, 100%, 80%);
+
+    --light-bg: hsl(240, 27%, 98%);
+    --dark-bg: hsl(233, 30%, 11%);
+}
+
+*{
+    font-family: 'League Spartan', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -1px;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: -0.63px;
+}
+
+h3.text-big{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.8px;
+}
+
+h3.text-small{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.25px;
+}
+
+p.body_1{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.25px;
+}
+
+p.body_2{
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 18px;
+    letter-spacing: -0.23px;
+}

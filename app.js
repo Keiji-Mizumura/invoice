@@ -36,6 +36,9 @@ const errorRoutes = require('./routes/error');
 // Helper Middlewares
 
 app.use(bodyParser.urlencoded({ extended: false }));
+
+app.use(express.static(path.join(__dirname, 'public')));
+
 app.use(session({
     secret: 'my secret',
     resave: false,
