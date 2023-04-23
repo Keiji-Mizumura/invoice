@@ -1,3 +1,8 @@
+// Enviromental Variables
+require('dotenv').config();
+
+const MONGODB_URI = process.env.MONGODB_URI_KEY;
+
 const path = require('path');
 
 // Express
@@ -10,8 +15,6 @@ const session = require('express-session');
 // Mongo DB
 const mongoose = require('mongoose');
 const MongoDBStore = require('connect-mongodb-session')(session);
-
-const MONGODB_URI = 'mongodb+srv://keiji:iHC9mocDXxdIWtiK@cluster0.fmmiiia.mongodb.net/invoice';
 
 // Application
 const app = express();
