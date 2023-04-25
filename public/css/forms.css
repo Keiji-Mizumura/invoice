@@ -1,0 +1,68 @@
+form.form{
+    /* TODO: Remove this line later */
+    /* TEST CODE */
+    width: 600px;
+    margin: 30px;
+}
+
+form.form .sub-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form.form .form-group{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1;
+}
+
+form.form .form-row{
+    display: flex;
+    gap: 10px;
+}
+
+label.form-label{
+    font-weight: 500;
+    font-size: 12px;
+    color: var(--muted-purple-dark);
+}
+
+form.form input,
+form.form select
+{
+    font-size: 12px;
+    font-weight: 700;
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: 1px solid var(--muted-purple-dark);
+}
+
+form.form input:hover,
+form.form select:hover,
+form.form input:focus,
+form.form select:focus
+{
+    border: 1px solid var(--light-purple);
+    outline: none;
+}
+
+input.text-field{
+    
+}
+
+select.drop-down{
+    cursor: pointer;
+    background-image: url('/images/icon-arrow-down.svg');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+select.drop-down option{
+    border: 1px solid red;
+}

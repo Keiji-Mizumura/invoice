@@ -3,8 +3,8 @@ button.btn{
     border: none;
     font-size: 12px;
     font-weight: 700;
-    min-height: 48px;
-    padding: 7px 24px;
+    height: 48px;
+    padding: 5px 24px;
     border-radius: 24px;
     letter-spacing: -0.25px;
 }
@@ -56,9 +56,20 @@ button.btn-3{
     align-items: center;
 }
 
+button.btn-3-dark{
+    background-color: var(--slightly-dark-purple);
+    color: var(--muted-purple-light);
+}
+
 button.btn-3:hover,
 button.btn-3:active{
     background-color: var(--muted-purple-light); 
+}
+
+button.btn-3-dark:hover,
+button.btn-3-dark:active{
+    background-color: white;
+    color: var(--muted-purple-light);
 }
 
 button.btn-4{
@@ -66,10 +77,21 @@ button.btn-4{
     color: var(--muted-purple);
 }
 
+button.btn-4-dark{
+    background-color: var(--slightly-dark-purple);
+    color: var(--muted-purple-light);
+}
+
 button.btn-4:hover,
 button.btn-4:active{
     background-color: var(--black);
 }
+
+button.btn-4-dark:hover,
+button.btn-4-dark:active{
+    background-color: var(--dark-purple);
+}
+
 
 button.btn-5{
     background-color: var(--red);
