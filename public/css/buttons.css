@@ -1,0 +1,97 @@
+button.btn{
+    cursor: pointer;
+    border: none;
+    font-size: 12px;
+    font-weight: 700;
+    min-height: 48px;
+    padding: 7px 24px;
+    border-radius: 24px;
+    letter-spacing: -0.25px;
+}
+
+button.btn-1{
+    background-color: var(--purple);
+    padding-left: 7px;
+    padding-right: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+button.btn-2{
+    background-color: var(--purple);
+    color: white;
+    padding-left: 24px;
+    padding-right: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+button.btn-1 > span.button-icon{
+    background-color: #fff;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button.btn-1:hover,
+button.btn-2:hover,
+button.btn-1:active,
+button.btn-2:active{
+    background-color: var(--light-purple);
+}
+
+button.btn-3{
+    background-color: var(--light-bg);
+    color: var(--muted-purple-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button.btn-3:hover,
+button.btn-3:active{
+    background-color: var(--muted-purple-light); 
+}
+
+button.btn-4{
+    background-color: var(--slightly-dark-purple);
+    color: var(--muted-purple);
+}
+
+button.btn-4:hover,
+button.btn-4:active{
+    background-color: var(--black);
+}
+
+button.btn-5{
+    background-color: var(--red);
+    color: white;
+}
+
+button.btn-5:hover,
+button.btn-5:active{
+    background-color: var(--muted-red);
+}
+
+button.btn-6{
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: var(--light-bg);
+    color: var(--muted-purple-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button.btn-6:hover,
+button.btn-6:active{
+    background-color: var(--muted-purple-light); 
+}
