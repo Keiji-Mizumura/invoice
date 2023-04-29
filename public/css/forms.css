@@ -3,6 +3,7 @@ form.form{
     /* TEST CODE */
     width: 600px;
     margin: 30px;
+    padding: 30px;
 }
 
 form.form .sub-form{
@@ -48,10 +49,6 @@ form.form select:focus
     outline: none;
 }
 
-input.text-field{
-    
-}
-
 select.drop-down{
     cursor: pointer;
     background-image: url('/images/icon-arrow-down.svg');
@@ -63,6 +60,21 @@ select.drop-down{
     appearance: none;
 }
 
-select.drop-down option{
+/* select.drop-down option{
     border: 1px solid red;
+} */
+
+form.form-dark{
+    background-color: var(--dark-bg);
+}
+
+form.form-dark .form-dark-input{
+    background-color: var(--dark-purple);
+    border-color: var(--slightly-dark-purple);
+    color: white;
+}
+
+form.form-dark .form-dark-input:hover,
+form.form-dark .form-dark-input:focus{
+    border: 1px solid var(--slightly-dark-purple);
 }

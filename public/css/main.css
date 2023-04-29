@@ -65,3 +65,50 @@ p.body_2{
     line-height: 18px;
     letter-spacing: -0.23px;
 }
+
+/* Header */
+
+.page-header{
+    height: 70px;
+    background-color: var(--slightly-dark-purple);
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Logo */
+
+.logo-container{
+    background-color: var(--purple);
+    width: 70px;
+    height: 70px;
+    border-radius: 0 10px 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-controls{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: inherit;
+}
+
+.dark-mode-toggle{
+    height: inherit;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    border-right: 1px solid var(--muted-purple-dark);
+}
+
+.user-avatar .avatar-container{
+    padding: 20px;
+}
+
+.user-avatar .avatar-container img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
