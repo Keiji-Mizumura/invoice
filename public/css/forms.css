@@ -30,8 +30,8 @@ label.form-label{
     color: var(--muted-purple-dark);
 }
 
-form.form input,
-form.form select
+input,
+select
 {
     font-size: 12px;
     font-weight: 700;
@@ -40,10 +40,10 @@ form.form select
     border: 1px solid var(--muted-purple-dark);
 }
 
-form.form input:hover,
-form.form select:hover,
-form.form input:focus,
-form.form select:focus
+input:hover,
+select:hover,
+input:focus,
+select:focus
 {
     border: 1px solid var(--light-purple);
     outline: none;

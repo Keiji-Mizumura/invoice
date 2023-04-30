@@ -24,6 +24,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: var(--light-bg);
+}
+
 h1{
     font-weight: 700;
     font-size: 32px;
@@ -111,4 +115,28 @@ p.body_2{
     height: 40px;
     width: 40px;
     border-radius: 50%;
+}
+
+/* Section */
+
+.section-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.section-header .sub-title{
+    color: var(--muted-purple);
+}
+
+.section-controls{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.section-controls select{
+    border: none;
+    width: 80px;
 }
